@@ -1,0 +1,683 @@
+/* Extra small devices (min portrait phones) */
+@media (max-width: 320px) {
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575.98px) {
+    /* common css */
+    .whatwedo, .projects, .achievement, .dedicated, .contact, footer{
+        background-color: #FAFFFD;
+        min-height: 100px;
+    }
+    .c_padding {
+        padding: 28px 0;
+    }
+    .c_h1 {
+        font-size: 28px;
+        margin-bottom: 6px;
+    }
+    .c_p {
+        margin-bottom: 2px;
+    }
+
+    /* header */
+    header {
+        position: relative;
+        padding: 13px 0px;
+    }
+    .menu ul li a {
+        margin-right: 0px !important;
+    }
+    .left_bg {
+        top: -29rem;
+        left: -24rem;
+        width: 750px;
+        height: auto;
+    }
+
+    .top_bg {
+        left: 31%;
+    }
+
+    .menu ul li a {
+        margin-right: 12px !important;
+    }
+
+    .custom_btn {
+        width: 130px;
+        font-size: 17px;
+        padding: 9px 0px !important;
+        border-radius: 22px 0px;
+    }
+
+    /* banner */
+    .banner {
+        padding: 5px 0 30px;
+    }
+    .b_top_bg {
+        top: -76px;
+        left: -14px;
+        width: 120px;
+    }
+    .b_left_bg {
+        left: -128px;
+    }
+    .b_bg_bottom {
+        right: -25px;
+        bottom: -50px;
+    }
+    .b_bg {
+        width: 65px;
+        top: -11px;
+        left: -9px;
+    }
+    .uc_h1 {
+        margin-bottom: 8px;
+        font-size: 28px;
+        word-spacing: 0px;
+    }
+    .b_title p {
+        margin-bottom: 14px;
+    }
+
+    .b_img_wrapper {
+        margin-top: 40px;
+    }
+
+    /* what we do start */
+    .whatwedo {
+        background-size: 0 0;
+    }
+    .w_title {
+        padding-bottom: 15px;
+    }
+    .single {
+        padding: 30px 50px 20px;
+    }
+    .single .service_img {
+        width: 85px;
+        margin-bottom: 15px;
+    }
+    .single h2 {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .single p {
+        margin-bottom: 4px;
+    }
+
+    /* Projects start */   
+    .p_text {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .p_img_wrapper {
+        margin-top: 30px;
+    }
+
+    /* achievement start */
+    .av_text {
+        padding-right: 0;
+        padding-bottom: 15px;
+    }
+    .av_text h1 {
+        font-size: 30px;
+    }
+    .av_text p {
+        word-spacing: 0px;
+        margin-bottom: 0;
+    }
+    .icon i {
+        font-size: 50px;
+    }
+    .acv_text {
+        text-align: center;
+    }
+    .acv_text h2 {
+        font-size: 34px;
+    }
+    .acv_text p {
+        font-size: 17px;
+    }
+
+    /* dedicated section start */
+    .dedicated_title {
+        margin-bottom: 30px;
+    }
+    .d_plan {
+        margin-bottom: 30px;
+        padding: 20px 50px;
+    }
+    .price_title h2 {
+        margin-bottom: 2px;
+        font-size: 33px;
+    }
+    .price_title p {
+        margin-bottom: 12px;
+        font-size: 18px;
+    }
+    .plan_detail {
+        margin: 12px 0;
+    }
+    .plan_detail ul li {
+        margin-bottom: 4px;
+        font-size: 17px;
+    }
+    .order_btn {
+        padding-top: 13px;
+    }
+    /* contact section start */
+    .signup_title h1 {
+        font-size: 30px;
+        margin-bottom: 7px;
+    }
+    .signup_title p {
+        margin-bottom: 0;
+        font-size: 17px;
+    }
+    .signIn-box {
+        margin-top: 40px;
+        width: 100%;
+    }
+    .signIn-box input {
+        width: 60%;
+        padding: 0px 0px;
+    }
+    .signIn-box button[type="submit"] {
+        width: 115px;
+        height: 45px;
+        font-size: 16px;
+    }
+
+    /* footer start */
+    footer {
+        padding: 50px 0px 10px;
+    }
+    .social_link {
+        margin-top: 20px;
+    }
+    .social_link ul li {
+        margin-right: 7px;
+    }
+    .social_link ul li a {
+        width: 30px;
+        height: 30px;
+        font-size: 21px;
+    }
+    .f_col {
+        margin-top: 30px;
+    }
+    .f_col ul {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* common css */
+    .whatwedo, .projects, .achievement, .dedicated, .contact, footer{
+        background-color: #FAFFFD;
+        min-height: 100px;
+    }
+    .c_padding {
+        padding: 32px 0;
+    }
+    .c_h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .c_p {
+        margin-bottom: 6px;
+    }
+
+    /* header */
+    header {
+        position: relative;
+        padding: 13px 0px;
+    }
+    .menu ul li a {
+        margin-right: 0px !important;
+    }
+    .left_bg {
+        top: -29rem;
+        left: -24rem;
+        width: 750px;
+        height: auto;
+    }
+
+    .top_bg {
+        left: 31%;
+    }
+
+    .menu ul li a {
+        margin-right: 12px !important;
+    }
+
+    .custom_btn {
+        width: 130px;
+        font-size: 17px;
+        padding: 7px 0px !important;
+        border-radius: 23px 0px;
+    }
+
+    /* banner */
+    .banner{
+        padding: 10px 0 20px;
+    }
+    .b_top_bg {
+        top: -76px;
+        left: -14px;
+        width: 120px;
+    }
+    .b_left_bg {
+        left: -128px;
+    }
+    .b_bg_bottom {
+        right: -25px;
+        bottom: -50px;
+    }
+    .b_bg {
+        width: 65px;
+        top: -11px;
+        left: -9px;
+    }
+    .uc_h1 {
+        margin-bottom: 15px;
+        font-size: 35px;
+        word-spacing: 0px;
+    }
+    .b_title p {
+        margin-bottom: 15px;
+    }
+
+    .b_img_wrapper {
+        margin-top: 50px;
+    }
+
+    /* what we do start */
+    .whatwedo {
+        background-size: 0 0;
+    }
+    .w_title {
+        padding-bottom: 20px;
+    }
+    .single {
+        padding: 33px 50px 25px;
+    }
+    .single .service_img {
+        width: 85px;
+        margin-bottom: 15px;
+    }
+    .single h2 {
+        font-size: 20px;
+    }
+
+    .single p {
+        margin-bottom: 4px;
+    }
+
+    /* Projects start */   
+    .p_text {
+        margin-left: 0px;
+    }
+    .p_img_wrapper {
+        margin-top: 30px;
+    }
+
+    /* achievement start */
+    .av_text {
+        padding-right: 0;
+        padding-bottom: 15px;
+    }
+    .av_text h1 {
+        font-size: 30px;
+    }
+    .av_text p {
+        word-spacing: 0px;
+        margin-bottom: 0;
+    }
+    .acv_text {
+        text-align: center;
+    }
+    /* dedicated section start */
+    .dedicated_title {
+        margin-bottom: 30px;
+    }
+    .d_plan {
+        margin-bottom: 30px;
+        padding: 20px 50px;
+    }
+    .price_title h2 {
+        margin-bottom: 2px;
+        font-size: 33px;
+    }
+    .price_title p {
+        margin-bottom: 12px;
+        font-size: 18px;
+    }
+    .plan_detail {
+        margin: 12px 0;
+    }
+    .plan_detail ul li {
+        margin-bottom: 4px;
+        font-size: 17px;
+    }
+    .order_btn {
+        padding-top: 13px;
+    }
+    /* contact section start */
+    .signup_title h1 {
+        font-size: 30px;
+        margin-bottom: 7px;
+    }
+    .signup_title p {
+        margin-bottom: 0;
+        font-size: 17px;
+    }
+    .signIn-box {
+        margin-top: 40px;
+        width: 100%;
+    }
+    .signIn-box input {
+        width: 62%;
+        padding: 0px 5px;
+    }
+    .signIn-box button[type="submit"] {
+        width: 170px;
+        height: 50px;
+    }
+
+    /* footer start */
+    footer {
+        padding: 50px 0px 10px;
+    }
+    .social_link {
+        margin-top: 20px;
+    }
+    .social_link ul li {
+        margin-right: 7px;
+    }
+    .social_link ul li a {
+        width: 30px;
+        height: 30px;
+        font-size: 21px;
+    }
+    .f_col {
+        margin-top: 30px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* common css */
+    .whatwedo, .projects, .achievement, .dedicated, .contact, footer{
+        background-color: #FAFFFD;
+        min-height: 100px;
+    }
+    .c_padding {
+        padding: 40px 0;
+    }
+    .c_h1 {
+        font-size: 30px;
+    }
+
+    /* header */
+    header {
+        position: relative;
+        padding: 13px 0px;
+    }
+    .menu ul li a {
+        margin-right: 0px !important;
+    }
+    .left_bg {
+        top: -29rem;
+        left: -24rem;
+        width: 750px;
+        height: auto;
+    }
+
+    .top_bg {
+        left: 27%;
+    }
+
+    .menu ul li a {
+        margin-right: 12px !important;
+    }
+
+    .custom_btn {
+        width: 135px;
+        font-size: 17px;
+        padding: 7px 0px !important;
+        border-radius: 22px 0px;
+    }
+
+    /* banner */
+    .b_top_bg {
+        top: -76px;
+        left: -14px;
+        width: 120px;
+    }
+    .b_left_bg {
+        left: -128px;
+    }
+    .b_bg_bottom {
+        right: -25px;
+        bottom: -50px;
+    }
+    .b_bg {
+        width: 65px;
+        top: -11px;
+        left: -9px;
+    }
+    .uc_h1 {
+        margin-bottom: 22px;
+        font-size: 44px;
+        word-spacing: 0px;
+    }
+    .b_title p {
+        margin-bottom: 20px;
+    }
+
+    /* what we do start */
+    .whatwedo {
+        background-size: 0 0;
+    }
+    .w_title {
+        padding-bottom: 35px;
+    }
+    .single {
+        padding: 33px 10px 25px;
+    }
+    .single .service_img {
+        width: 93px;
+    }
+    .single h2 {
+        font-size: 21px;
+    }
+
+    /* Acgovement start */
+    .av_text {
+        padding-right: 0;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    .av_text h1 {
+        font-size: 30px;
+    }    
+    .p_text {
+        margin-left: 10px;
+    }
+    /* dedicated section start */
+    .dedicated_title {
+        margin-bottom: 40px;
+    }
+    .d_plan {
+        padding: 20px 20px;
+    }
+    .price_title h2 {
+        margin-bottom: 3px;
+        font-size: 35px;
+    }
+    .price_title p {
+        margin-bottom: 12px;
+    }
+    .plan_detail {
+        margin: 12px 0;
+    }
+    .plan_detail ul li {
+        margin-bottom: 4px;
+        font-size: 18px;
+    }
+    .order_btn {
+        padding-top: 15px;
+    }
+    /* contact section start */
+    .signup_title h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .signup_title p {
+        margin-bottom: 0;
+        font-size: 18px;
+    }
+    .signIn-box {
+        margin-top: 50px;
+        width: 100%;
+    }
+    .signIn-box input {
+        width: 62%;
+        padding: 0px 5px;
+    }
+    .signIn-box button[type="submit"] {
+        width: 170px;
+        height: 52px;
+    }
+
+    /* footer start */
+    footer {
+        padding: 50px 0px 15px;
+    }
+    .social_link {
+        margin-top: 20px;
+    }
+    .social_link ul li {
+        margin-right: 7px;
+    }
+    .social_link ul li a {
+        width: 28px;
+        height: 28px;
+        font-size: 20px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* common css */
+    .whatwedo, .projects, .achievement, .dedicated, .contact, footer{
+        background-color: #FAFFFD;
+        min-height: 100px;
+    }
+    .c_h1 {
+        font-size: 38px;
+    }
+
+    /* header */
+    header {
+        position: relative;
+        padding: 13px 0px;
+    }
+    .left_bg {
+        top: -30rem;
+        left: -21rem;
+    }
+
+    .top_bg {
+        left: 22%;
+    }
+
+    .menu ul li a {
+        margin-right: 12px !important;
+    }
+
+    .custom_btn {
+        width: 140px;
+        font-size: 17px;
+        padding: 10px 0px !important;
+        border-radius: 23px 0px;
+    }
+
+    /* banner */
+    .b_top_bg {
+        top: -76px;
+        left: -14px;
+        width: 120px;
+    }
+    .b_left_bg {
+        left: -128px;
+    }
+    .b_bg_bottom {
+        right: -25px;
+        bottom: -50px;
+    }
+    .b_bg {
+        width: 65px;
+        top: -11px;
+        left: -9px;
+    }
+
+    /* what we do start */
+    .w_title {
+        padding-bottom: 35px;
+    }
+    .whatwedo {
+        background-size: 130% 110%;
+    }
+    .single {
+        padding: 33px 10px 25px;
+    }
+    .single .service_img {
+        width: 93px;
+    }
+    .single h2 {
+        font-size: 21px;
+    }
+
+    /* Projects start */
+    .p_text {
+        margin-left: 40px;
+    }
+    /* dedicated section start */
+    .d_plan {
+        padding: 25px 40px;
+    }
+    .price_title h2 {
+        font-size: 40px;
+    }
+    /* contact section start */
+    .signup_title h1 {
+        font-size: 38px;
+    }
+
+    /* footer start */
+    .social_link ul li a {
+        width: 32px;
+        height: 32px;
+        font-size: 22px;
+    }
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+/* Extra extra large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
+
